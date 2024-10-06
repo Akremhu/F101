@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 300px;
+}
+
+/* Services Section */
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.service {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.service h3 {
+    color: #333;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.social-media img {
+    width: 50px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
